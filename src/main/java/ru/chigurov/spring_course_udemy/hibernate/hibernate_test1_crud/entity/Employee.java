@@ -1,4 +1,4 @@
-package ru.chigurov.spring_course_udemy.hibernate_test1_crud.entity;
+package ru.chigurov.spring_course_udemy.hibernate.hibernate_test1_crud.entity;
 
 import javax.persistence.*;
 

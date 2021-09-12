@@ -1,29 +1,27 @@
-package ru.chigurov.spring_course_udemy.hibernate_test1_crud;
+package ru.chigurov.spring_course_udemy.hibernate.hibernate_test1_crud;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import ru.chigurov.spring_course_udemy.hibernate_test1_crud.entity.Employee;
+import ru.chigurov.spring_course_udemy.hibernate.hibernate_test1_crud.entity.Employee;
 
-public class Test5_delete {
+public class Test1 {
     public static void main(String[] args) {
         SessionFactory factory = new Configuration()
                 .configure("hibernate.cfg.xml")
                 .addAnnotatedClass(Employee.class)
                 .buildSessionFactory();
 
-        try{
+        try {
             Session session = factory.getCurrentSession();
+            Employee emp = new Employee("Alexy", "Pyzilov", "HR", 700);
             session.beginTransaction();
-            //Employee emp = session.get(Employee.class, 1);
-            //session.delete(emp);
-
-            session.createQuery("delete Employee where name='Alexy'").executeUpdate();
-
+            session.save(emp);
             session.getTransaction().commit();
-
-        }finally {
+            System.out.println("DONE!");
+        } finally {
             factory.close();
         }
+
     }
 }
