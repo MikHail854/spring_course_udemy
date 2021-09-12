@@ -1,4 +1,4 @@
-package ru.chigurov.spring_course_udemy.hibernate_test4_one_to_many_uni.entity;
+package ru.chigurov.spring_course_udemy.hibernate.hibernate_test4_one_to_many_uni.entity;
 
 import javax.persistence.*;
 

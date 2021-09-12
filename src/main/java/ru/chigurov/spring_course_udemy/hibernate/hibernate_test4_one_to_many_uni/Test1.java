@@ -1,9 +1,9 @@
-package ru.chigurov.spring_course_udemy.hibernate_test4_one_to_many_uni;
+package ru.chigurov.spring_course_udemy.hibernate.hibernate_test4_one_to_many_uni;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import ru.chigurov.spring_course_udemy.hibernate_test4_one_to_many_uni.entity.*;
+import ru.chigurov.spring_course_udemy.hibernate.hibernate_test4_one_to_many_uni.entity.*;
 
 public class Test1 {
     public static void main(String[] args) {
