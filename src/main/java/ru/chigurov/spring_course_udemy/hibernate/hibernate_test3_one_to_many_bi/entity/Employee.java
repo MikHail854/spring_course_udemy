@@ -1,4 +1,4 @@
-package ru.chigurov.spring_course_udemy.hibernate_test3_one_to_many_bi.entity;
+package ru.chigurov.spring_course_udemy.hibernate.hibernate_test3_one_to_many_bi.entity;
 
 import javax.persistence.*;
 

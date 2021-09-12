@@ -1,10 +1,10 @@
-package ru.chigurov.spring_course_udemy.hibernate_test3_one_to_many_bi;
+package ru.chigurov.spring_course_udemy.hibernate.hibernate_test3_one_to_many_bi;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-import ru.chigurov.spring_course_udemy.hibernate_test3_one_to_many_bi.entity.Department;
-import ru.chigurov.spring_course_udemy.hibernate_test3_one_to_many_bi.entity.Employee;
+import ru.chigurov.spring_course_udemy.hibernate.hibernate_test3_one_to_many_bi.entity.Department;
+import ru.chigurov.spring_course_udemy.hibernate.hibernate_test3_one_to_many_bi.entity.Employee;
 
 public class Test1 {
     public static void main(String[] args) {
